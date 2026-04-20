@@ -4,7 +4,7 @@
     "step": {
       "user": {
         "title": "Terneo Thermostat",
-        "description": "Enter the IP address and serial number of your Terneo device. The serial number is printed on a sticker on the device and is visible on its local page at http://<device ip>/index.html.",
+        "description": "Enter the IP address and serial number of your Terneo device. The serial number is printed on a sticker on the device and is visible on its local web page.",
         "data": {
           "host": "Host / IP address",
           "port": "Port",
@@ -32,12 +32,12 @@
           "email": "Email",
           "password": "Password"
         }
-      }
-    },
-    "menu": {
+      },
       "totp_method": {
-        "skip_totp": "Continue without TOTP (LAN lock is off)",
-        "fetch_totp": "Fetch TOTP key from Terneo cloud account"
+        "menu_options": {
+          "skip_totp": "Continue without TOTP (LAN lock is off)",
+          "fetch_totp": "Fetch TOTP key from Terneo cloud account"
+        }
       }
     },
     "error": {
