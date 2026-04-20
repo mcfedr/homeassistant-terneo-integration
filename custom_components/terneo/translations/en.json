@@ -48,6 +48,7 @@
     },
     "abort": {
       "already_configured": "This device is already configured.",
+      "already_in_progress": "Setup is already in progress for this device. Check discovered devices in Settings.",
       "invalid_discovery": "The discovery broadcast was missing required fields."
     }
   },

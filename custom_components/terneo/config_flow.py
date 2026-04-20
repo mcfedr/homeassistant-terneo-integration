@@ -130,7 +130,10 @@ class TerneoConfigFlow(ConfigFlow, domain=DOMAIN):
         """Let the user choose how to handle TOTP authentication."""
         return self.async_show_menu(
             step_id="totp_method",
-            menu_options=["skip_totp", "fetch_totp"],
+            menu_options={
+                "skip_totp": "Continue without TOTP (LAN lock is off)",
+                "fetch_totp": "Fetch TOTP key from Terneo cloud account",
+            },
         )
 
     async def async_step_skip_totp(
