@@ -1,15 +1,13 @@
 {
   "domain": "terneo",
   "name": "Terneo Thermostat",
-  "version": "2.0.1",
-  "documentation": "https://github.com/mcfedr/homeassistant-terneo-integration",
-  "issue_tracker": "https://github.com/mcfedr/homeassistant-terneo-integration/issues",
-  "codeowners": [
-    "@mcfedr"
-  ],
+  "codeowners": ["@mcfedr"],
   "config_flow": true,
-  "iot_class": "local_polling",
+  "dependencies": [],
+  "documentation": "https://github.com/mcfedr/homeassistant-terneo-integration",
   "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/mcfedr/homeassistant-terneo-integration/issues",
   "requirements": [],
-  "dependencies": []
+  "version": "2.0.1"
 }
